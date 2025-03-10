@@ -113,6 +113,9 @@ GEM
       responders
       warden (~> 1.2.3)
     dotenv (3.1.7)
+    dotenv-rails (3.1.7)
+      dotenv (= 3.1.7)
+      railties (>= 6.1)
     down (5.4.2)
       addressable (~> 2.8)
     drb (2.2.1)
@@ -391,7 +394,7 @@ DEPENDENCIES
   cocoon
   debug
   devise (~> 4.9)
-  dotenv
+  dotenv-rails
   groupdate
   image_processing
   importmap-rails
