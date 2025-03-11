@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   resources :products
   get "product_records/graph", to: "product_records#graph", as: :graph
 
-  resources :product_records, only: [:new, :create, :index, :show] do
-    resources :product_record_products, only: [:new, :create]
+  resources :product_records, only: [ :new, :create, :index, :show ] do
+    resources :product_record_products, only: [ :new, :create ]
   end
 end

@@ -39,7 +39,7 @@ class ProductRecordsController < ApplicationController
       .where(user_id: current_user.id, date: 30.days.ago..Date.today)
       .order(:date)
       .pluck(:date, :weight)
-      .map { |date, weight| [date.to_s, weight.to_f] } # 🔥 Convertit bien les dates et poids
+      .map { |date, weight| [ date.to_s, weight.to_f ] } # 🔥 Convertit bien les dates et poids
       .to_h
 
     puts "DEBUG WEIGHT DATA: #{@weight_data.inspect}" # 🔍 Vérifie que les données sont récupérées
