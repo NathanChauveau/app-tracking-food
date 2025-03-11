@@ -8,15 +8,16 @@ development:
   <<: *default
   database: trackfood_development
   username: root
-  password:
+  password: ""
   host: localhost
+  port: 3306
 
 test:
   <<: *default
   adapter: mysql2
   database: trackfood_test
   username: root
-  password:
+  password: ""
   host: localhost
   port: 3306
 

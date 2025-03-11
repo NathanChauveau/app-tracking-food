@@ -1,13 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  category: MyString
-  calories: 1
-  user: one
+  id: 1
+  name: Bonano
+  category: 1
+  kcals: 12
 
 two:
-  name: MyString
-  category: MyString
-  calories: 1
-  user: two
+  id: 8
+  name: Babana
+  category: 1
+  kcals: 123
