@@ -321,6 +321,7 @@ GEM
     shrine (3.6.0)
       content_disposition (~> 1.0)
       down (~> 5.1)
+    shutup (0.1.2)
     solid_cable (3.0.5)
       actioncable (>= 7.2)
       activejob (>= 7.2)
@@ -411,6 +412,7 @@ DEPENDENCIES
   rubyplot
   selenium-webdriver
   shrine
+  shutup
   solid_cable
   solid_cache
   solid_queue

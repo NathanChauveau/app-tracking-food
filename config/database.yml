@@ -13,10 +13,12 @@ development:
 
 test:
   <<: *default
+  adapter: mysql2
   database: trackfood_test
   username: root
   password:
   host: localhost
+  port: 3306
 
 production:
   <<: *default
