@@ -23,10 +23,11 @@ test:
 
 production:
   <<: *default
-  adapter: mysql2
-  database: <%= ENV['DATABASE_NAME'] %>
-  username: <%= ENV['DATABASE_USERNAME'] %>
-  password: <%= ENV['DATABASE_PASSWORD'] %>
-  host: <%= ENV['DATABASE_HOST'] %>
-  port: <%= ENV['DATABASE_PORT'] %>
-  url: <%= ENV['DATABASE_URL'] %> # Utilise l'URL définie dans les variables d'environnement
+  cable:
+    adapter: mysql2
+    database: <%= ENV['DATABASE_NAME'] %>
+    username: <%= ENV['DATABASE_USERNAME'] %>
+    password: <%= ENV['DATABASE_PASSWORD'] %>
+    host: <%= ENV['DATABASE_HOST'] %>
+    port: <%= ENV['DATABASE_PORT'] %>
+    url: <%= ENV['DATABASE_URL'] %> # Utilise l'URL définie dans les variables d'environnement
