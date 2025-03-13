@@ -68,8 +68,9 @@ Rails.application.configure do
   #   port: 587,
   #   authentication: :plain
   # }
-
-  config.action_cable.enabled = false
+  #
+  config.action_cable.url = nil
+  config.action_cable.allowed_request_origins = []
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
