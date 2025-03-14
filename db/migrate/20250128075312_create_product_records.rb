@@ -1,4 +1,4 @@
-class CreateProductRecords < ActiveRecord::Migration[8.0]
+class CreateProductRecords < ActiveRecord::Migration[7.1]
   def change
     create_table :product_records do |t|
       t.date :date
