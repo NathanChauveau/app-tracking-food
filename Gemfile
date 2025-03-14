@@ -78,3 +78,4 @@ gem "rubocop"
 gem "shutup"
 gem "rake"
 gem "imgur"
+gem "aws-sdk-s3", require: false
