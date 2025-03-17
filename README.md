@@ -40,5 +40,5 @@ rails server
 Soyez sur que vous le lancer en development (avec rails server -e development)
 
 
-Licence
+## Licence
 Ce projet est sous licence Unlicense.
