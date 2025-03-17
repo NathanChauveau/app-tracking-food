@@ -6,8 +6,9 @@
 - Calcul des calories : Suivi de l'apport calorique quotidien.
 - Plans de repas personnalisés : Création et gestion de plans de repas adaptés aux objectifs nutritionnels de l'utilisateur.
 ## Version
-Ruby 3.37
-Git 2.46.0.windows.1
+- Ruby 3.37
+- Git 2.46.0.windows.1
+- MariaDB 10.6
 
 ## Installation
 Cloner le dépôt :
