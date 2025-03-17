@@ -3,8 +3,7 @@ class Product < ApplicationRecord
 
   has_many :product_record_products, dependent: :destroy
   has_many :product_records, through: :product_record_products
-
-  include ImageUploader::Attachment(:image)
+  has_one_attached :image
 
   validates :name, presence: true
   validates :category_id, presence: true

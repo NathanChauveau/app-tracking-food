@@ -5,7 +5,7 @@
     <body>
         <%= link_to 'Back', products_path %> <br>
         <h1>Add a new product</h1>
-        <%= form_with model: @product do |f| %>
+        <%= form_with model: @product, html: { multipart: true} do |f| %>
             <p>
                 <%= f.label :name %><br>
                 <%= f.text_field :name %>
