@@ -20,7 +20,9 @@
 <h3>List of product:</h3>
 <% @products.each do |product| %>
 Name: <%= product.name %><br>
-Showcase: <br> <%= image_tag product.image_url if product.image %><br>
+Showcase: <br> <% if product.image.attached? %>
+  <%= image_tag product.image %>
+<% end %><br>
 Category: <%= product.category.name %><br>
 Calories: <%= product.kcals %>/kg<br>
 See details: <%= link_to "Details", product_path(product) %><br>
