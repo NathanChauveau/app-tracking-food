@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.1.0"
+gem "rails", "~> 8.0.2"
 ruby "3.3.7"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
@@ -77,3 +77,4 @@ gem "dotenv-rails"
 gem "rubocop"
 gem "shutup"
 gem "rake"
+gem "imgur"

@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+["Fruits", "Vegetables", "Dairy", "Meat", "Grains", "Sweets"].each do |category_name|
+  Category.find_or_create_by!(name: category_name)
+end
