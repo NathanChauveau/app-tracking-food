@@ -9,4 +9,5 @@ class Product < ApplicationRecord
   validates :name, presence: true
   validates :category_id, presence: true
   validates :kcals, presence: true, numericality: { only_integer: true, greater_than: 0 }
+  validates :image, presence: true
 end
